@@ -1,0 +1,27 @@
+{
+  "name": "Balón de Oro 2026",
+  "short_name": "Balón de Oro",
+  "description": "Candidatos al Balón de Oro 2026: estadísticas, premio y votación.",
+  "theme_color": "#0a0a0a",
+  "background_color": "#0a0a0a",
+  "display": "browser",
+  "orientation": "portrait",
+  "scope": "./",
+  "id": "./",
+  "start_url": "./",
+  "lang": "es-MX",
+  "icons": [
+    {
+      "src": "img/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

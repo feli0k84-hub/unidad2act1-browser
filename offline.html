@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sin conexión | Balón de Oro 2026</title>
+    <meta name="theme-color" content="#0a0a0a">
+    <link rel="stylesheet" href="lib/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <style>
+        .sin-conexion {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            padding: 24px;
+            text-align: center;
+        }
+
+        .sin-conexion i.icono-offline {
+            font-size: 4rem;
+            color: var(--color-dorado);
+        }
+
+        .sin-conexion h1 {
+            color: var(--color-dorado);
+        }
+
+        .sin-conexion p {
+            color: var(--color-texto-mutado);
+        }
+    </style>
+</head>
+<body>
+    <main class="sin-conexion">
+        <i class="fas fa-wifi icono-offline"></i>
+        <h1>Sin conexión</h1>
+        <p>No se pudo cargar la página. Revisa tu conexión a internet e inténtalo de nuevo.</p>
+        <a href="./" class="boton boton-principal"><i class="fas fa-rotate-right"></i>Reintentar</a>
+    </main>
+</body>
+</html>
